@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "echo \"do the tests\" && exit 0",
     "preversion": "npm test",
-    "version": "git add .",
+    "version": "echo \"grunt build or other thing to do\"",
     "postversion": "git push && git push --tags"
   },
   "repository": {

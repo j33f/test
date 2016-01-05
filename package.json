@@ -1,6 +1,6 @@
 {
   "name": "dev",
-  "version": "0.0.3-0",
+  "version": "0.1.0",
   "description": "test",
   "main": "index.js",
   "directories": {
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 0",
     "preversion": "npm test",
     "version": "git add .",
-    "postversion": "git push && git push --tags"    
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",

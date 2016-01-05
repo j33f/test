@@ -7,8 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"do the tests\" && exit 0",
-    "preversion": "npm test",
+    "preversion": "git checkout master && git pull",
     "version": "echo \"grunt build or other thing to do\"",
     "postversion": "git push && git push --tags"
   },
